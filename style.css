@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-principal:rgb(38, 0, 255);
+    --cor-secundaria:rgb(15, 2, 75);
+    --cor-destaque:rgb(7, 59, 128);
+    --cor-fundo:rgb(149, 214, 245);
+}
+
+body{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--cor-principal);
+    background-color: var(--cor-fundo);
+
+}
+
+h1, h2, h5{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead {
+  color: var(--cor-destaque);
+  font-weight: 800;
+}
+
+.lead,
+.btn-link {
+  color: var(--cor-destaque);
+  font-weight: 700;
+}
+
+a,
+.btn-link:hover {
+  color: var(--cor-principal);
+}
+
+a:hover {
+  color: var(--cor-destaque);
+}
+
+footer a{
+    color: var(--cor-principal);
+}
+
+footer a:hover{
+    color: var(--cor-destaque);
+}
+
+.modal {
+  color: black;
+}
